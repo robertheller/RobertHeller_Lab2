@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RobertHeller_Lab2</string>
+    <string name="unit_converter_app">Unit Converter App</string>
+    <string name="results">Results</string>
+</resources>
