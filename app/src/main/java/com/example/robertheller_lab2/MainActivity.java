@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         double converted_val = (value - 32) * 0.55;
 
-        results.setText(Double.toString(converted_val));
+        results.setText(String.format("%.2f Celsius", converted_val));
     }
 
     public void convert_ctof(View view) {
@@ -36,6 +36,6 @@ public class MainActivity extends AppCompatActivity {
 
         double converted_val = (value * 1.8) + 32;
 
-        results.setText(Double.toString(converted_val));
+        results.setText(String.format("%.2f Fahrenheit", converted_val));
     }
 }
